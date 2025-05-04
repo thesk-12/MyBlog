@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content"></div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const postIndex = urlParams.get('post');
+
+    fetch('posts.json')
+      .then(res => res.json())
+      .then(data => {
+        const post = data[postIndex];
+        document.getElementById('content').innerHTML = `
+          <h1>${post.title}</h1>
+          <p>${post.content}</p>
+        `;
+      });
+  </script>
+</body>
+</html>
