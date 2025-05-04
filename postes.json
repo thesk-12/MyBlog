@@ -1,10 +1,13 @@
 [
   {
-    "title": "Welcome to My Blog",
-    "content": "This is my first blog post!"
+    "title": "My First Blog Post",
+    "date": "2025-05-04",
+    "content": "This is my first post content. I am excited to start blogging!"
   },
   {
-    "title": "Another Day, Another Post",
-    "content": "Writing blogs is fun."
+    "title": "Another Update",
+    "date": "2025-05-03",
+    "content": "Here’s another update from me! Hope you enjoy reading."
   }
 ]
+
