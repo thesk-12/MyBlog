@@ -1,12 +1,17 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   padding: 20px;
-  background: #f8f8f8;
+  background: #f9f9f9;
 }
-h1, h2 {
+
+h1 {
   color: #333;
 }
-a {
-  text-decoration: none;
-  color: #007acc;
+
+.post {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
